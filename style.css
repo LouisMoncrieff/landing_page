@@ -1,16 +1,48 @@
 body {
     font-family: "Robot", "Arial";
-    display: flex;
-    flex-direction: column;
+    margin: 0;
 
 }
 
 .top {
     background-color: #1F2937;
+    height: 500px;
+
 
 
 
 }
+
+.header, .test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+}
+
+
+
+.placeholder {
+    background-color: grey;
+    color: #F9FAF8;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 a, .subtext {
     text-decoration: none;
@@ -48,13 +80,10 @@ button {
     background-color: #3882f6;
     color:#F9FAF8;
     border-radius: 5px;
+    height: 40px;
+    width: 110px;
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
 
 
