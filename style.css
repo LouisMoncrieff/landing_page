@@ -13,6 +13,11 @@ body {
 
 }
 
+.header {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
 .header, .test{
     display: flex;
     justify-content: center;
@@ -27,7 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: 200px;
+    height: 210px;
 }
 
 
@@ -53,7 +58,8 @@ a, .subtext {
 ul{
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 20px;
+    margin-left: 410px;
 
 }
 
@@ -82,6 +88,7 @@ button {
     border-radius: 5px;
     height: 40px;
     width: 110px;
+    margin-top: 8px;
 }
 
 
