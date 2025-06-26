@@ -83,8 +83,9 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    width: 100vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 
 }
 
@@ -93,7 +94,6 @@ button {
     width: 200px;
     border: solid #3882f6;
     border-radius: 20px;
-
 }
 
 .container {
@@ -109,25 +109,20 @@ button {
     background-color: #1F2937;
     height: 550px;
     width: 100dv;
-    border: solid green;
-
-
 }
 
 .middle {
-
-    border: solid red;
-    height: 500px;
+    height: 300px;
     width: 100dv;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-
-
-  
+    align-items: center;
 }
 
-
-
+.test2 {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+}
 
 
