@@ -5,7 +5,6 @@ body {
 
 }
 
-
 .header {
     margin-bottom: 100px;
 }
@@ -19,15 +18,12 @@ body {
     
 }
 
-
 .left {
     display: flex;
     flex-direction: column;
     width: 500px;
     height: 210px;
 }
-
-
 
 .placeholder {
     background-color: grey;
@@ -39,7 +35,6 @@ body {
     align-items: center;
 
 }
-
 
 a, .subtext {
     text-decoration: none;
@@ -55,7 +50,6 @@ ul{
     margin-left: 410px;
 
 }
-
 
 .logo {
     font-size:24px;
@@ -113,7 +107,6 @@ button {
 
 .middle {
     height: 300px;
-    width: 100dv;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +116,31 @@ button {
     display: flex;
     width: 1000px;
     justify-content: center;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: light italic;
+}
+
+.test3 {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.name {
+    text-align: right;
+    flex: 1;
 }
 
 
