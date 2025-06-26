@@ -143,4 +143,39 @@ button {
     flex: 1;
 }
 
+.product {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    color:#F9FAF8;
+}
+
+.blue {
+    height: 120px;
+    width: 1200px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box2 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.header1 {
+    font-size: 25px;
+}
+
+.button2 {
+    border: 2px solid #F9FAF8;
+}
 
