@@ -2,19 +2,11 @@ body {
     font-family: "Robot", "Arial";
     margin: 0;
 
-}
-
-.top {
-    background-color: #1F2937;
-    height: 500px;
-
-
-
 
 }
+
 
 .header {
-    margin-top: 20px;
     margin-bottom: 100px;
 }
 
@@ -28,7 +20,7 @@ body {
 }
 
 
-.container {
+.left {
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -52,7 +44,8 @@ body {
 a, .subtext {
     text-decoration: none;
     font-size: 18px;
-    color: #F9FAF8;
+    color: #F9FAF8;    font-family: "Robot", "Arial";
+    margin: 0;
 }
 
 ul{
@@ -77,19 +70,63 @@ ul{
     font-weight:900;
 }
 
-.illustration {
-    height: 200px;
-    width: 200px;
-}
-
 button {
     background-color: #3882f6;
     color:#F9FAF8;
-    border-radius: 5px;
+    border-radius: 8px;
     height: 40px;
     width: 110px;
     margin-top: 8px;
 }
+
+.info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    width: 100vh;
+    text-align: center;
+
+}
+
+.illustration {
+    height: 200px;
+    width: 200px;
+    border: solid #3882f6;
+    border-radius: 20px;
+
+}
+
+.container {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.top {
+    background-color: #1F2937;
+    height: 550px;
+    width: 100dv;
+    border: solid green;
+
+
+}
+
+.middle {
+
+    border: solid red;
+    height: 500px;
+    width: 100dv;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+  
+}
+
 
 
 
